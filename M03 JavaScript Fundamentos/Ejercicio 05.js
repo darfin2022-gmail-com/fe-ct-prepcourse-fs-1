@@ -10,13 +10,14 @@ function esPositivo(num) {
    // Tu código:
    if (num > 0){
       return "Es positivo";
-   } else if (num < 0){
+   }else if(num < 0){
       return "Es negativo";
-   } else { 
+   }else{ 
       return false;
+      }
 }
-}
-console.log(esPositivo(0));
+
+console.log(esPositivo(15));
 
 function agregarSimboloExclamacion(str) {
    // Agrega un símbolo de exclamación al final del string "str" y retórnalo
@@ -42,12 +43,13 @@ function obtenerSaludo(nombre) {
    return "Hola " + nombre + '!'
 }
 console.log(obtenerSaludo("Laurita bebe"));
+console.log(obtenerSaludo("Carlos Andrés Rincón Sánchez"))
 function obtenerAreaRectangulo(alto, ancho) {
    // Retornar el área de un rectángulo teniendo su altura y ancho.
    // Tu código:
    return alto * ancho;
 }
-console.log(obtenerAreaRectangulo(5, 4));
+console.log(obtenerAreaRectangulo(10,15));
 
 function retornarPerimetro(lado) {
    // La función recibe como argumento la medida de un lado de un cuadrado.
@@ -70,7 +72,7 @@ function deEuroAdolar(euro) {
    // Tu código:
    return euro * 1.20;
 }
-console.log(deEuroAdolar(34));
+console.log(deEuroAdolar(102));
 
 function esVocal(letra) {
    // Escribe una función que reciba una letra y, si es una vocal, muestre el mensaje “Es vocal”.
@@ -91,7 +93,8 @@ function esVocal(letra) {
          return "Dato incorrecto";
       }
 }
-console.log(esVocal("c"));
+console.log(esVocal("a"))
+
 /*⚠️ NO MODIFIQUES NADA DEBAJO DE ESTO ⚠️*/
 module.exports = {
    esPositivo,

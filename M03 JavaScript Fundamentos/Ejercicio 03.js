@@ -24,7 +24,7 @@ function tienenMismaLongitud(str1, str2) {
       return false;
    }
 }
-console.log(tienenMismaLongitud('carlos', 'ricardo'));
+console.log(tienenMismaLongitud('carlos', 'martha'));
 
 function menosQueNoventa(num) {
    // Retorna true si el argumento "num" es menor que noventa.
